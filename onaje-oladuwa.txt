@@ -126,7 +126,7 @@ It gives my writing structure and increases accessibility
          12. Go back to your forked Project repo on github
          13. Click your name-branch and then click the New pull request button to make a pull request on your name branch
              Then change the repository to make sure it's my forked one and then add my TL as a reviewer.
-         15.     
+         
 
 
 Stretch Questions
@@ -135,9 +135,14 @@ Stretch Questions
     inline element works on specific things within the line ie. change one word and a block deals with the whole things
 
     2. What happens when an element is positioned absolutely? 
+    An absolutely positioned element no longer exists in the normal document layout flow. Instead, it sits on its own layer separate from everything else.
 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+     I think I would use the box model attributes to adjust the width
 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
-    
+        display block: div, h1, and p
+        display inline: span and img
+        display inline-block: button
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    
